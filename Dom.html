@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ejercicio Dom de Javascript</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="Titulo">Hola soy un documento de Html</h1>
+        <p id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo excepturi autem tempora dicta nostrum! Provident velit repellendus minima voluptates maxime, labore fugiat, dicta magni exercitationem temporibus fuga! Ducimus, reiciendis ullam!</p>
+        <button id="button" class="btn btn-Danger">Enviar</button>
+    </div>
+    <script>
+  var h1 = document.getElementById("titulo");
+   console.log(h1.innerHTML);
+
+   h1.innerHTML = "A un nuevo texto";
+   h1.style.color = "blue";
+   h1.style.background = "Red";
+    </script>
+</body>
+</html>
